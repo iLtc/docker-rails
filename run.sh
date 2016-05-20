@@ -2,7 +2,7 @@
 
 cd /usr/src/app
 
-bundle install
+bundle install --without development test
 
 rake db:migrate RAILS_ENV=production
 
